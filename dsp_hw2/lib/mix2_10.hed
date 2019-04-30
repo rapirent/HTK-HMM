@@ -1,13 +1,13 @@
-MU 5 {liN.state[2-16].mix}
-MU 5 {#i.state[2-16].mix}
-MU 5 {#er.state[2-16].mix}
-MU 5 {san.state[2-16].mix}
-MU 5 {sy.state[2-16].mix}
-MU 5 {#u.state[2-16].mix}
-MU 5 {liou.state[2-16].mix}
-MU 5 {qi.state[2-16].mix}
-MU 5 {ba.state[2-16].mix}
-MU 5 {jiou.state[2-16].mix}
+MU 6 {liN.state[2-16].mix}
+MU 6 {#i.state[2-16].mix}
+MU 6 {#er.state[2-16].mix}
+MU 6 {san.state[2-16].mix}
+MU 6 {sy.state[2-16].mix}
+MU 6 {#u.state[2-16].mix}
+MU 6 {liou.state[2-16].mix}
+MU 6 {qi.state[2-16].mix}
+MU 6 {ba.state[2-16].mix}
+MU 6 {jiou.state[2-16].mix}
 MU 3 {sil.state[2-4].mix}
 
 
