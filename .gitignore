@@ -3,5 +3,7 @@
 *.tar.gz
 !dsp_hw2-1.zip
 htk/
+MFCC/
+hmm/
 
 
