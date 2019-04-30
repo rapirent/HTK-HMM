@@ -22,3 +22,5 @@ HVite -D -H $macro -H $model -S $test_data_list -C $config -w $word_net \
 	
 HResults -e "???" sil -e "???" sp -I $answer_mlf $model_list \
 	$out_mlf >> $out_acc
+
+cat $out_acc >> total_result
