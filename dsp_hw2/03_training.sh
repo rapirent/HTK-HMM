@@ -53,7 +53,7 @@ HHEd -T 2 -H $macro -H $model -M $mmf_dir lib/mix2_10.hed $model_list
 
 # re-adjust mean, var
 echo "step 05 [HERest]: adjust mean, var..."
-for i in $(seq 1 20) ;
+for i in $(seq 1 10) ;
 do
 	HERest -C $config -I $label \
 		-t 250.0 150.0 1000.0 -S $data_list \
