@@ -2,7 +2,7 @@
 
 implement a monophone recognizer with HTK
 
-the model is based on this ![data & default model](http://speech.ee.ntu.edu.tw/homework/DSP_HW2-1/dsp_hw2-1.zip)
+the model is based on this [data & default model](http://speech.ee.ntu.edu.tw/homework/DSP_HW2-1/dsp_hw2-1.zip)
 
 ## 最佳結果
 
