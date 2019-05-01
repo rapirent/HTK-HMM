@@ -70,7 +70,7 @@ gcc: gcc version 8.3.0
 
 |HMM states| 5 (default)  | 16  | 17  |
 |:-:|---|---|---|
-| Acc  | 77.96 |97.18| 97.24((with bad data or over pruning warning))|
+| Acc  | 75.89 |97.18| 97.24((with bad data or over pruning warning))|
 
 - 將訓練次數固定在 10-20 次，HMM 的 state 數固定在 16
 
