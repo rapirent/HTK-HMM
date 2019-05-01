@@ -43,6 +43,12 @@ gcc: gcc version 8.3.0
 
 從初始的 5 個 state 開始，嘗試 6 ~ 18 個 state，訓練效果以 16 個 state 為最好
 
+## 發現
+
+- 一開始固定 GMM 和 HMM 的 state 數目，發現單純以 10 次 iteration 的表現最好，不過在嘗試不同 HMM state 數後發現 10-20 的 iteration 訓練策略表現會更好 (96.26 -> 97.18)
+
+- 另外也發現如果以 default 的參數下，將 HMM state 增加至 17 個以上，HTK 會跳出警示訊息
+
 
 ## 相關實驗結果
 
@@ -56,4 +62,20 @@ gcc: gcc version 8.3.0
 
 |HMM states| 5 (default)  | 6  | 7  | 8  | 9  | 10  | 11  | 12  | 13|14|15|16|17| 18|
 |:-:|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Acc  | 74.34 | 82.74  | 88.95| 91.48| 92.23  |  94.02 |  95.17 |  95.74  |96.43|96.49|96.49|96.72|96.78 (with bad data or over pruning warning)| 96.26 (with bad data or over pruning warning)|
+| Acc  | 77.96 | 82.74  | 88.95| 91.48| 92.23  |  94.02 |  95.17 |  95.74  |96.43|96.49|96.49|96.72|96.78 (with bad data or over pruning warning)| 96.26 (with bad data or over pruning warning)|
+
+- 將訓練次數固定在 10-20 次，GMM 的數量固定在 3
+
+|HMM states| 5 (default)  | 16  | 17  |
+|:-:|---|---|---|
+| Acc  | 77.96 |97.18| 97.24((with bad data or over pruning warning))|
+
+- 將訓練次數固定在 10-20 次，HMM 的 state 數固定在 16
+
+|GMMs| 3 (default)  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11|12|
+|:-:|---|---|---|---|---|---|---|---|---|
+| Acc  | 97.18 |97.70| 97.87| 97.87| 97.99| 97.81  |  97.76 |  98.04 |  97.99  |97.70|
+
+## Author
+
+kuoteng, Ding
