@@ -5,5 +5,7 @@
 htk/
 MFCC/
 hmm/
+!report.pdf
+*.html
 
 

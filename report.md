@@ -1,8 +1,7 @@
-# HTK-HMM
+# 數位語音處理 HW2-2
 
-implement a monophone recognizer with HTK
+<p align="right">資工所碩一 R07922009 丁國騰</p>
 
-the model is based on this ![data & default model](http://speech.ee.ntu.edu.tw/homework/DSP_HW2-1/dsp_hw2-1.zip)
 
 ## 最佳結果
 
@@ -77,7 +76,3 @@ gcc: gcc version 8.3.0
 |GMMs| 3 (default)  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11|12|
 |:-:|---|---|---|---|---|---|---|---|---|---|---|
 | Acc  | 97.18 |97.70| 97.87| 97.87| 97.99| 97.81  |  97.76 |  98.04 |  97.99  |97.70|
-
-## Author
-
-kuoteng, Ding
