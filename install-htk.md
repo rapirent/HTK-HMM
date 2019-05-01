@@ -8,6 +8,8 @@ $ make all
 $ sudo make install
 ```
 
+# Linux
+
 ```sh
 $ unzip HTK-3.4.1.zip
 $ export CPPFLAGS=-UPHNALG
